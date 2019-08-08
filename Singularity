@@ -34,7 +34,7 @@ yum install -y vim emacs
 yum groupinstall -y 'Development Tools'
 yum install -y wget
 
-# GCC 8.2 (default system GCC is OLD, use newer version)
+# GCC 8.2.1 (default system GCC is OLD, use newer version)
 yum install -y centos-release-scl
 yum install -y devtoolset-8-gcc*
 scl enable devtoolset-8 bash
