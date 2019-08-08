@@ -17,7 +17,7 @@ yum install -y deltarpm
 # Epel
 yum install -y epel-release
 
-# Omnipath and OpenMPI user libraries for Summit
+# Omnipath, Infiniband and OpenMPI user libraries
 yum install -y libhfi1 libpsm2 libpsm2-devel libpsm2-compat
 yum install -y perftest qperf
 yum install -y libibverbs libibverbs-devel rdma
